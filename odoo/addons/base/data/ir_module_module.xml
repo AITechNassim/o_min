@@ -4,7 +4,7 @@
 
         <record model="ir.module.module" id="base.module_web_studio">
             <field name="name">web_studio</field>
-            <field name="shortdesc">Studio</field>
+            <field n/odoo/odoo-server/odoo/addons/base/__manifest__.pyame="shortdesc">Studio</field>
             <field name="sequence">75</field>
             <field name="category_id" ref="base.module_category_administration_administration"/>
             <field name="application" eval="True"/>

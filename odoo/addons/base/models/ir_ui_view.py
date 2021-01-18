@@ -1579,8 +1579,7 @@ actual arch.
 
     @api.model
     def read_template(self, xml_id):
-        """ This method is deprecated
-        Return a template content based on external id
+        """ Return a template content based on external id
         Read access on ir.ui.view required
         """
         template_id = self.get_view_id(xml_id)

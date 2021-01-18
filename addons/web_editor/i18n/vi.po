@@ -3,23 +3,24 @@
 # 	* web_editor
 # 
 # Translators:
+# sao sang <saosangmo@yahoo.com>, 2020
 # Support W360s <support@w360s.com>, 2020
 # Minh Nguyen <ndminh210994@gmail.com>, 2020
-# Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2020
 # Dung Nguyen Thi <dungnt@trobz.com>, 2020
 # Martin Trigaux, 2020
 # fanha99 <fanha99@hotmail.com>, 2020
+# Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2020
 # Dao Nguyen <trucdao.uel@gmail.com>, 2020
+# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020
 # Duy BQ <duybq86@gmail.com>, 2020
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 14:13+0000\n"
+"POT-Creation-Date: 2020-10-02 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2021\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2020\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,6 +51,13 @@ msgstr ""
 
 #. module: web_editor
 #. openerp-web
+#: code:addons/web_editor/static/src/xml/ace.xml:0
+#, python-format
+msgid "&times;"
+msgstr "&times;"
+
+#. module: web_editor
+#. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid ""
@@ -63,15 +71,13 @@ msgstr ""
 #, python-format
 msgid "'Title tag' is shown as a tooltip when you hover the picture."
 msgstr ""
-"'Tiêu đề Thẻ' được hiển thị dưới dạng chú giải công cụ khi bạn di chuột qua "
-"ảnh."
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "(ALT Tag)"
-msgstr "(ALT Tag)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -85,7 +91,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "(URL or Embed)"
-msgstr "(URL hoặc được nhúng)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -102,17 +108,17 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "<i class=\"fa fa-warning\"/> External Image"
-msgstr "<i class=\"fa fa-warning\"/> Hình ảnh bên ngoài"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "<span>Blocks</span>"
-msgstr "<span>Khối</span>"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "<span>Style</span>"
-msgstr "<span>Style</span>"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -122,8 +128,6 @@ msgid ""
 "A server error occured. Please check you correctly signed in and that the "
 "file you are saving is correctly formatted."
 msgstr ""
-"Đã xảy ra lỗi máy chủ. Vui lòng kiểm tra xem bạn đã đăng nhập chính xác hay "
-"chưa và file bạn đang lưu được định dạng đúng."
 
 #. module: web_editor
 #. openerp-web
@@ -158,14 +162,14 @@ msgstr "Thêm URL"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/media.js:0
 #, python-format
 msgid "Add as document"
-msgstr "Thêm tài liệu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/media.js:0
 #, python-format
 msgid "Add as image"
-msgstr "Thêm như ảnh"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -173,14 +177,14 @@ msgstr "Thêm như ảnh"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Add document"
-msgstr "Thêm tài liệu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/media.js:0
 #, python-format
 msgid "Add image"
-msgstr "Thêm ảnh"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -189,7 +193,7 @@ msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
-msgid "Airy & Zigs"
+msgid "Airy"
 msgstr ""
 
 #. module: web_editor
@@ -225,14 +229,14 @@ msgstr "Tất cả"
 #: code:addons/web_editor/static/src/xml/ace.xml:0
 #, python-format
 msgid "All SCSS Files"
-msgstr "Tất cả SCSS Files"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "All images have been loaded"
-msgstr "Tất cả hình ảnh đã được tải"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -249,21 +253,21 @@ msgstr "Áp dụng"
 #, python-format
 msgid ""
 "Are you sure you want to delete the snippet: ${$snippet.attr('name')} ?"
-msgstr "Bạn có chắc chắn muốn xóa đoạn mã không: ${$snippet.attr('name')} ?"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/media.js:0
 #, python-format
 msgid "Are you sure you want to delete this file ?"
-msgstr "Bạn có chắc chắn muốn xóa tệp này không?"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Aspect Ratio"
-msgstr "Tỷ lệ khung hình"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_web_editor_assets
@@ -285,7 +289,7 @@ msgstr "URL Đính kèm"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Autoconvert to relative link"
-msgstr "Tự động chuyển đổi sang liên kết tương ứng"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -309,7 +313,7 @@ msgstr "Màu nền"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Background Position"
-msgstr "Vị trí nền"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -325,13 +329,13 @@ msgstr "Khoá"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
-msgid "Blocks & Rainy"
+msgid "Blocks"
 msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Blur"
-msgstr "Làm mờ"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -349,7 +353,7 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Brightness"
-msgstr "Độ sáng"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -362,7 +366,6 @@ msgstr "Nút"
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Cancel"
 msgstr "Hủy"
@@ -372,7 +375,7 @@ msgstr "Hủy"
 #: code:addons/web_editor/static/src/js/common/ace.js:0
 #, python-format
 msgid "Careful !"
-msgstr "Cẩn thận !"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -393,7 +396,7 @@ msgstr "Thay đổi mô tả và tooltip của media"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Changing the quality is not supported for images of type"
-msgstr "Thay đổi chất lượng không được hỗ trợ cho loại ảnh"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -405,7 +408,7 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "Click in the page to customize"
-msgstr "Nhấp vào trang để tùy chỉnh"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -448,7 +451,7 @@ msgstr "Cột"
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #, python-format
 msgid "Combinations"
-msgstr "Kết hợp"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -474,19 +477,19 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Copy-paste your URL or embed code here"
-msgstr "Sao chép-dán URL của bạn hoặc mã nhúng tại đây"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Could not install module <strong>%s</strong>"
-msgstr "Không thể cài đặt mô-đun <strong>%s</strong>"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Cover"
-msgstr "Ảnh bìa"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__create_uid
@@ -503,7 +506,7 @@ msgstr "Thời điểm tạo"
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Crop Image"
-msgstr "Cắt ảnh"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -519,21 +522,21 @@ msgstr "Tùy chỉnh"
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Custom %s"
-msgstr "Chỉnh %s"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Custom Color"
-msgstr "Tự phối màu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Dailymotion"
-msgstr "Hàng ngày"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -548,14 +551,14 @@ msgstr "Mặc định"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Default + Rounded"
-msgstr "Mặc định + Làm tròn"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Delete %s"
-msgstr "Xóa %s"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -608,7 +611,7 @@ msgstr "Tên hiển thị"
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Do you want to install the %s App?"
-msgstr "Bạn có muốn cài đặt Ứng dụng %s không?"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -673,7 +676,7 @@ msgstr "Sửa"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Edit image"
-msgstr "Sửa ảnh"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -689,21 +692,21 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/common/ace.js:0
 #, python-format
 msgid "Expected "
-msgstr "Dự kiến "
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "File / Image"
-msgstr "File / Ảnh"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Fill"
-msgstr "Điền vào"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -816,7 +819,7 @@ msgstr "Toàn màn hình"
 #: code:addons/web_editor/static/src/xml/backend.xml:0
 #, python-format
 msgid "Fullscreen"
-msgstr "Toàn màn hình"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -971,8 +974,6 @@ msgid ""
 "If you discard the current edits, all unsaved changes will be lost. You can "
 "cancel to return to edit mode."
 msgstr ""
-"Nếu bạn hủy các chỉnh sửa hiện tại, tất cả các thay đổi chưa được lưu sẽ bị "
-"mất. Bạn có thể hủy để quay lại chế độ chỉnh sửa."
 
 #. module: web_editor
 #. openerp-web
@@ -982,8 +983,6 @@ msgid ""
 "If you reset this file, all your customizations will be lost as it will be "
 "reverted to the default file."
 msgstr ""
-"Nếu bạn cài lại file này, tất cả các tùy chỉnh của bạn sẽ bị mất vì nó sẽ bị"
-" đảo lại như file mặc định."
 
 #. module: web_editor
 #. openerp-web
@@ -1035,12 +1034,12 @@ msgstr "Chiều rộng ảnh"
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Indent"
-msgstr "Thụt lề"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Inkwell"
-msgstr "Lọ mực"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1082,21 +1081,21 @@ msgstr "Cài đặt"
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Install %s"
-msgstr "Cài đặt %s"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Install in progress"
-msgstr "Đang cài đặt"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Invisible Elements"
-msgstr "Yếu tố vô hình"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1110,21 +1109,21 @@ msgstr "In nghiêng"
 #: code:addons/web_editor/static/src/xml/ace.xml:0
 #, python-format
 msgid "JS"
-msgstr "JS"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/common/ace.js:0
 #, python-format
 msgid "JS file: %s"
-msgstr "JS file: %s"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Justify full"
-msgstr "Căn đều đầy đủ"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1211,7 +1210,7 @@ msgstr "Liên kết đến"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Load more..."
-msgstr "Tải thêm..."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1243,7 +1242,7 @@ msgstr "Xem trước Mobile"
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "More info about this app."
-msgstr "Thông tin thêm về ứng dụng này."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1266,7 +1265,7 @@ msgstr "Tên"
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "New size"
-msgstr "Kích thước mới"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1280,21 +1279,21 @@ msgstr "Không"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "No documents found."
-msgstr "Không tìm thấy tài liệu nào."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "No images found."
-msgstr "Không tìm thấy hình ảnh."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "No location to drop in"
-msgstr "Không có điểm để thả vào"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1348,21 +1347,21 @@ msgstr "Mở trong cửa sổ mới"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Optimize"
-msgstr "Tối ưu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Optimized"
-msgstr "Tối ưu hóa"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Or choose a preset:"
-msgstr "Hoặc chọn một cài đặt trước:"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1374,7 +1373,7 @@ msgstr "Danh sách có thứ tự"
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_ir_attachment__original_id
 msgid "Original (unoptimized, unresized) attachment"
-msgstr "Tệp đính kèm gốc (chưa tối ưu hóa, chưa định kích thước)"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -1386,7 +1385,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Outdent"
-msgstr "Lạc hậu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1414,7 +1413,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Paragraph"
-msgstr "Đoạn văn"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1504,27 +1503,27 @@ msgstr "Liên hệ lĩnh vực Qweb"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_date
 msgid "Qweb Field Date"
-msgstr "Qweb trường Ngày"
+msgstr "Qweb Field Date"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_datetime
 msgid "Qweb Field Datetime"
-msgstr "Qweb trường Thời gian"
+msgstr "Qweb Field Datetime"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_duration
 msgid "Qweb Field Duration"
-msgstr "Qweb trường Thời lượng"
+msgstr "Qweb Field Duration"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_float
 msgid "Qweb Field Float"
-msgstr "Qweb trường Float"
+msgstr "Qweb Field Float"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_html
 msgid "Qweb Field HTML"
-msgstr "Qweb trường HTML"
+msgstr "Qweb Field HTML"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_image
@@ -1534,37 +1533,42 @@ msgstr "Trường ảnh Qweb"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_integer
 msgid "Qweb Field Integer"
-msgstr "Qweb trường Integer"
+msgstr "Qweb Field Integer"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_many2one
 msgid "Qweb Field Many to One"
-msgstr "Qweb trường Many to One"
+msgstr "Qweb Field Many to One"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_monetary
 msgid "Qweb Field Monetary"
-msgstr "Qweb trường Monetary"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_relative
 msgid "Qweb Field Relative"
-msgstr "Qweb trường Relative"
+msgstr "Qweb Field Relative"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_selection
 msgid "Qweb Field Selection"
-msgstr "Qweb trường Selection"
+msgstr "Qweb Field Selection"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_text
 msgid "Qweb Field Text"
-msgstr "Qweb trường Text"
+msgstr "Qweb Field Text"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_qweb
 msgid "Qweb Field qweb"
-msgstr "Qweb trường qweb"
+msgstr "Qweb Field qweb"
+
+#. module: web_editor
+#: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
+msgid "Rainy"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1585,14 +1589,14 @@ msgstr "Làm lại"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Reduce the quality as much as possible to increase performance."
-msgstr "Giảm chất lượng càng nhiều càng tốt để tăng hiệu suất."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Reduce the size as much as possible to increase performance."
-msgstr "Giảm kích thước càng nhiều càng tốt để tăng hiệu suất."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1626,14 +1630,14 @@ msgstr "Gỡ Hình"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Repeat pattern"
-msgstr "Lặp lại mẫu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Replace media"
-msgstr "Media thay thế"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1656,68 +1660,68 @@ msgstr "Đặt lại ảnh"
 #: code:addons/web_editor/static/src/js/common/ace.js:0
 #, python-format
 msgid "Reseting views is not supported yet"
-msgstr "Cài lại các chế độ xem chưa được hỗ trợ"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Resize Full"
-msgstr "Đổi kích thước đủ"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Resize Half"
-msgstr "Đổi kích thước 1/2"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Resize Quarter"
-msgstr "Đổi kích thước 1/4"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Resizing is not supported for images of type"
-msgstr "Thay đổi kích thước không được hỗ trợ cho loại ảnh"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Rotate Left"
-msgstr "Xoay trái"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Rotate Right"
-msgstr "Xoay phải"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/ace.xml:0
 #, python-format
 msgid "SCSS (CSS)"
-msgstr "SCSS (CSS)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/common/ace.js:0
 #, python-format
 msgid "SCSS file: %s"
-msgstr "SCSS file: %s"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Saturation"
-msgstr "Bão hòa"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1734,20 +1738,13 @@ msgstr "Lưu"
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Save Your Block"
-msgstr "Lưu khối của bạn"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Save and Install"
-msgstr "Lưu và cài đặt"
-
-#. module: web_editor
-#. openerp-web
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid "Save and Reload"
 msgstr ""
 
 #. module: web_editor
@@ -1772,21 +1769,21 @@ msgstr "Tìm kiếm Liên hệ"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Search a document"
-msgstr "Tìm kiếm tài liệu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Search a pictogram"
-msgstr "Tìm kiếm từ tượng hình"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Search an image"
-msgstr "Tìm kiếm hình ảnh"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
@@ -1896,7 +1893,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Superscript"
-msgstr "Chỉ số trên"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1955,14 +1952,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "The URL does not seem to work."
-msgstr "URL dường như không hoạt động."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "The URL seems valid."
-msgstr "URL có vẻ hợp lệ."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1972,8 +1969,6 @@ msgid ""
 "The image could not be deleted because it is used in the\n"
 "               following pages or views:"
 msgstr ""
-"Không thể xóa hình ảnh vì nó được sử dụng trong\n"
-"               các trang sau hoặc dạng xem sau:"
 
 #. module: web_editor
 #. openerp-web
@@ -1994,14 +1989,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/wysiwyg_colorpicker.xml:0
 #, python-format
 msgid "Theme colors"
-msgstr "Màu sắc Theme"
+msgstr "Mà sắc Theme"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #, python-format
 msgid "This block is outdated"
-msgstr "Khối này đã lỗi thời"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2070,15 +2065,6 @@ msgstr "Tiêu đề"
 msgid ""
 "To make changes, drop this block and use the new options in the last "
 "version."
-msgstr ""
-
-#. module: web_editor
-#. openerp-web
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid ""
-"To save a snippet, we need to save all your previous modifications and "
-"reload the page."
 msgstr ""
 
 #. module: web_editor
@@ -2181,7 +2167,7 @@ msgstr "Danh sách không thứ tự"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Upload a document"
-msgstr "Tải lên 1 tài liệu"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2343,6 +2329,11 @@ msgid "Youtube"
 msgstr ""
 
 #. module: web_editor
+#: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
+msgid "Zigs"
+msgstr ""
+
+#. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
@@ -2475,4 +2466,4 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Width"
-msgstr "⌙ Width"
+msgstr ""

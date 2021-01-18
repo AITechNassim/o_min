@@ -5,7 +5,6 @@ var ajax = require('web.ajax');
 var config = require('web.config');
 var concurrency = require('web.concurrency');
 var core = require('web.core');
-var dom = require('web.dom');
 var Dialog = require('web.Dialog');
 var Widget = require('web.Widget');
 var localStorage = require('web.local_storage');
@@ -912,9 +911,8 @@ var ViewEditor = Widget.extend({
      *
      * @private
      */
-    _onSaveClick: function (ev) {
-        const restore = dom.addButtonLoadingEffect(ev.currentTarget);
-        this._saveResources().guardedCatch(restore);
+    _onSaveClick: function () {
+        this._saveResources();
     },
     /**
      * Called when the user wants to switch from xml to scss or vice-versa ->

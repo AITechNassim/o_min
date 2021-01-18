@@ -8,16 +8,17 @@
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2020
 # Nicolás Broggi <rnbroggi@gmail.com>, 2020
 # Jon Perez <jop@odoo.com>, 2020
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020
 # Martin Trigaux, 2020
-# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2021
+# Olivier Dony <odo@odoo.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 14:13+0000\n"
+"POT-Creation-Date: 2020-10-02 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2021\n"
+"Last-Translator: Olivier Dony <odo@odoo.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,6 +46,13 @@ msgstr ""
 #, python-format
 msgid "%spx"
 msgstr ""
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/xml/ace.xml:0
+#, python-format
+msgid "&times;"
+msgstr "&times;"
 
 #. module: web_editor
 #. openerp-web
@@ -190,7 +198,7 @@ msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
-msgid "Airy & Zigs"
+msgid "Airy"
 msgstr ""
 
 #. module: web_editor
@@ -326,8 +334,8 @@ msgstr "Bloquear"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
-msgid "Blocks & Rainy"
-msgstr ""
+msgid "Blocks"
+msgstr "Bloques"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -363,7 +371,6 @@ msgstr "Botón"
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Cancel"
 msgstr "Cancelar"
@@ -1525,7 +1532,7 @@ msgstr "Campo Flotante Qweb"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_html
 msgid "Qweb Field HTML"
-msgstr "Campo HTML Qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_image
@@ -1545,7 +1552,7 @@ msgstr "Campo Qweb Muchos a Uno"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_monetary
 msgid "Qweb Field Monetary"
-msgstr "Campo monetario Qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_relative
@@ -1566,6 +1573,11 @@ msgstr "Texto de Campo Qweb"
 #: model:ir.model,name:web_editor.model_ir_qweb_field_qweb
 msgid "Qweb Field qweb"
 msgstr "Qweb del campo qweb"
+
+#. module: web_editor
+#: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
+msgid "Rainy"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1742,13 +1754,6 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Save and Install"
-msgstr ""
-
-#. module: web_editor
-#. openerp-web
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid "Save and Reload"
 msgstr ""
 
 #. module: web_editor
@@ -2078,15 +2083,6 @@ msgstr ""
 
 #. module: web_editor
 #. openerp-web
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid ""
-"To save a snippet, we need to save all your previous modifications and "
-"reload the page."
-msgstr ""
-
-#. module: web_editor
-#. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "To what URL should this link go?"
@@ -2350,6 +2346,11 @@ msgstr "Youku"
 #, python-format
 msgid "Youtube"
 msgstr "Youtube"
+
+#. module: web_editor
+#: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
+msgid "Zigs"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web

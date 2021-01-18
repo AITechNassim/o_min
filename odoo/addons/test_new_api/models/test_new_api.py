@@ -493,16 +493,7 @@ class ComputeRecursive(models.Model):
 
     name = fields.Char(required=True)
     parent = fields.Many2one('test_new_api.recursive', ondelete='cascade')
-    full_name = fields.Char(compute='_compute_full_name')
     display_name = fields.Char(compute='_compute_display_name', store=True)
-
-    @api.depends('name', 'parent.full_name')
-    def _compute_full_name(self):
-        for rec in self:
-            if rec.parent:
-                rec.full_name = rec.parent.full_name + " / " + rec.name
-            else:
-                rec.full_name = rec.name
 
     @api.depends('name', 'parent.display_name')
     def _compute_display_name(self):
@@ -511,22 +502,6 @@ class ComputeRecursive(models.Model):
                 rec.display_name = rec.parent.display_name + " / " + rec.name
             else:
                 rec.display_name = rec.name
-
-
-class ComputeRecursiveTree(models.Model):
-    _name = 'test_new_api.recursive.tree'
-    _description = 'Test New API Recursive with one2many field'
-
-    name = fields.Char(required=True)
-    parent_id = fields.Many2one('test_new_api.recursive.tree', ondelete='cascade')
-    children_ids = fields.One2many('test_new_api.recursive.tree', 'parent_id')
-    display_name = fields.Char(compute='_compute_display_name', store=True)
-
-    @api.depends('name', 'children_ids.display_name')
-    def _compute_display_name(self):
-        for rec in self:
-            children_names = rec.mapped('children_ids.display_name')
-            rec.display_name = '%s(%s)' % (rec.name, ', '.join(children_names))
 
 
 class ComputeCascade(models.Model):
@@ -569,7 +544,6 @@ class ComputeOnchange(models.Model):
     foo = fields.Char()
     bar = fields.Char(compute='_compute_bar', store=True)
     baz = fields.Char(compute='_compute_baz', store=True, readonly=False)
-    count = fields.Integer(default=0)
     line_ids = fields.One2many(
         'test_new_api.compute.onchange.line', 'record_id',
         compute='_compute_line_ids', store=True, readonly=False
@@ -578,10 +552,6 @@ class ComputeOnchange(models.Model):
         'test_new_api.multi.tag',
         compute='_compute_tag_ids', store=True, readonly=False,
     )
-
-    @api.onchange('foo')
-    def _onchange_foo(self):
-        self.count += 1
 
     @api.depends('foo')
     def _compute_bar(self):
@@ -663,27 +633,19 @@ class ComputeUnassigned(models.Model):
 
     @api.depends('foo')
     def _compute_bar(self):
-        for record in self:
-            if record.foo == "assign":
-                record.bar = record.foo
+        pass
 
     @api.depends('foo')
     def _compute_bare(self):
-        for record in self:
-            if record.foo == "assign":
-                record.bare = record.foo
+        pass
 
     @api.depends('foo')
     def _compute_bars(self):
-        for record in self:
-            if record.foo == "assign":
-                record.bars = record.foo
+        pass
 
     @api.depends('foo')
     def _compute_bares(self):
-        for record in self:
-            if record.foo == "assign":
-                record.bares = record.foo
+        pass
 
 
 class ModelBinary(models.Model):
@@ -825,7 +787,7 @@ class Attachment(models.Model):
             rec.name = self.env[rec.res_model].browse(rec.res_id).display_name
 
     # DLE P55: `test_cache_invalidation`
-    def modified(self, fnames, *args, **kwargs):
+    def modified(self, fnames, create=False):
         if not self:
             return
         comodel = self.env[self.res_model]
@@ -834,7 +796,7 @@ class Attachment(models.Model):
             record = comodel.browse(self.res_id)
             self.env.cache.invalidate([(field, record._ids)])
             record.modified(['attachment_ids'])
-        return super(Attachment, self).modified(fnames, *args, **kwargs)
+        return super(Attachment, self).modified(fnames, create)
 
 
 class AttachmentHost(models.Model):
@@ -1222,32 +1184,3 @@ class ComputeEditableLine(models.Model):
     def _compute_edit(self):
         for line in self:
             line.edit = line.value
-
-
-class TriggerLeft(models.Model):
-    _name = 'test_new_api.trigger.left'
-    _description = 'model with a related many2one'
-
-    middle_ids = fields.One2many('test_new_api.trigger.middle', 'left_id')
-    right_id = fields.Many2one(related='middle_ids.right_id', store=True)
-
-
-class TriggerMiddle(models.Model):
-    _name = 'test_new_api.trigger.middle'
-    _description = 'model linking test_new_api.trigger.left and test_new_api.trigger.right'
-
-    left_id = fields.Many2one('test_new_api.trigger.left', required=True)
-    right_id = fields.Many2one('test_new_api.trigger.right', required=True)
-
-
-class TriggerRight(models.Model):
-    _name = 'test_new_api.trigger.right'
-    _description = 'model with a dependency on the inverse of the related many2one'
-
-    left_ids = fields.One2many('test_new_api.trigger.left', 'right_id')
-    left_size = fields.Integer(compute='_compute_left_size', store=True)
-
-    @api.depends('left_ids')
-    def _compute_left_size(self):
-        for record in self:
-            record.left_size = len(record.left_ids)

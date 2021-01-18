@@ -6,17 +6,17 @@
 # sharkutz <sharkutz4life@yahoo.com>, 2020
 # Cozmin Candea <office@terrabit.ro>, 2020
 # Hongu Cosmin <cosmin513@gmail.com>, 2020
+# Foldi Robert <foldirobert@nexterp.ro>, 2020
 # Martin Trigaux, 2020
 # Dorin Hongu <dhongu@gmail.com>, 2020
-# Foldi Robert <foldirobert@nexterp.ro>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 14:13+0000\n"
+"POT-Creation-Date: 2020-10-02 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2021\n"
+"Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2020\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,6 +44,13 @@ msgstr "%dpx (Sugerat)"
 #, python-format
 msgid "%spx"
 msgstr "%spx"
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/xml/ace.xml:0
+#, python-format
+msgid "&times;"
+msgstr "&times;"
 
 #. module: web_editor
 #. openerp-web
@@ -96,7 +103,7 @@ msgstr "(YouTube, Vimeo, Vine, Instagram, DailyMotion sau Youku)"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "1977"
-msgstr "1977"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -106,12 +113,12 @@ msgstr "<i class=\"fa fa-warning\"/> Imagine externă"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "<span>Blocks</span>"
-msgstr "<span>Blocuri</span>"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "<span>Style</span>"
-msgstr "<span>Stil</span>"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -184,12 +191,12 @@ msgstr "Adăugare Imagine"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Aden"
-msgstr "Aden"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
-msgid "Airy & Zigs"
-msgstr "Airy & Zigs"
+msgid "Airy"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -324,8 +331,8 @@ msgstr "Bloc"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
-msgid "Blocks & Rainy"
-msgstr "Blocuri și ploi"
+msgid "Blocks"
+msgstr "Blocare(i)"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -343,12 +350,12 @@ msgstr "Bold"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Brannan"
-msgstr "Brannan"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Brightness"
-msgstr "Luminozitate"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -361,7 +368,6 @@ msgstr "Buton"
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Cancel"
 msgstr "Anulează"
@@ -466,7 +472,7 @@ msgstr "Confirmare"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Contrast"
-msgstr "Contrast"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -554,7 +560,7 @@ msgstr "Implicit + Rotunjit"
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "Delete %s"
-msgstr "Șterge %s"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -648,13 +654,13 @@ msgstr "Duplică container"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Dynamic color"
-msgstr "Culoare Dinamică"
+msgstr ""
 
 #. module: web_editor
 #: code:addons/web_editor/controllers/main.py:0
 #, python-format
 msgid "ERROR: couldn't get download urls from media library."
-msgstr "EROARE: nu s-au putut descărca adrese URL din biblioteca media."
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -672,7 +678,7 @@ msgstr "Editare"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Edit image"
-msgstr "Editare Imagine"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -712,7 +718,7 @@ msgstr "Completați"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Fill + Rounded"
-msgstr "Umplere + Rotunjire"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -727,7 +733,7 @@ msgstr "Filtru"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "First Panel"
-msgstr "Primul Panou"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -828,8 +834,6 @@ msgid ""
 "Get the perfect image by searching in our library of copyright free photos "
 "and illustrations."
 msgstr ""
-"Obțineți imaginea perfectă căutând în biblioteca noastră fotografii și "
-"ilustrații fără drepturi de autor."
 
 #. module: web_editor
 #. openerp-web
@@ -996,7 +1000,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Illustrations"
-msgstr "Ilustrații"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1046,7 +1050,7 @@ msgstr "Indentificare"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Inkwell"
-msgstr "Cerneală"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1229,7 +1233,7 @@ msgstr "Buclă"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Maven"
-msgstr "Maven"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1256,7 +1260,7 @@ msgstr "Mai multe informații despre această aplicație."
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "My Images"
-msgstr "Imaginile Mele"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1272,7 +1276,7 @@ msgstr "Nume"
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "New size"
-msgstr "Dimensiune Nouă"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1300,7 +1304,7 @@ msgstr "Nicio imagine gasită."
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #, python-format
 msgid "No location to drop in"
-msgstr "Nicio locație de închis"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1385,14 +1389,14 @@ msgstr "Atașament original (neoptimizat, nemodificat)"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Origins"
-msgstr "Origini"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Outdent"
-msgstr "Outdent"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1406,7 +1410,7 @@ msgstr "Contur"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Outline + Rounded"
-msgstr "Schiță + Rotunjit"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1576,6 +1580,11 @@ msgid "Qweb Field qweb"
 msgstr "Qweb Câmp qweb"
 
 #. module: web_editor
+#: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
+msgid "Rainy"
+msgstr ""
+
+#. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.js:0
 #, python-format
@@ -1642,7 +1651,7 @@ msgstr "Repetați modelul"
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Replace media"
-msgstr "Înlocuiți media"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1726,7 +1735,7 @@ msgstr "Fișier SCSS:  %s"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Saturation"
-msgstr "Saturație"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1751,13 +1760,6 @@ msgstr ""
 #, python-format
 msgid "Save and Install"
 msgstr "Salvare și instalare"
-
-#. module: web_editor
-#. openerp-web
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid "Save and Reload"
-msgstr "Salvați și reîncărcați"
 
 #. module: web_editor
 #. openerp-web
@@ -1814,7 +1816,7 @@ msgstr "Secundar"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/media_dialog.js:0
 #, python-format
 msgid "Select a Media"
-msgstr "Selectați un suport media"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1826,7 +1828,7 @@ msgstr "Selectați din fișiere"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Sepia"
-msgstr "Sepia"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1898,14 +1900,14 @@ msgstr "Stil"
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Subscript"
-msgstr "Indice"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Superscript"
-msgstr "Super Indice"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2091,15 +2093,6 @@ msgstr ""
 
 #. module: web_editor
 #. openerp-web
-#: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid ""
-"To save a snippet, we need to save all your previous modifications and "
-"reload the page."
-msgstr ""
-
-#. module: web_editor
-#. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "To what URL should this link go?"
@@ -2108,7 +2101,7 @@ msgstr "La ce URL trebuie să meargă acest link?"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Toaster"
-msgstr "Toaster"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2184,14 +2177,14 @@ msgstr "Neașteptat"
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Unlink"
-msgstr "Deconectați"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:0
 #, python-format
 msgid "Unordered list"
-msgstr "Lista neordonata"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2210,7 +2203,7 @@ msgstr "Încarcă o imagine"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Valencia"
-msgstr "Valencia"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2265,27 +2258,27 @@ msgstr "Pachetele de vizualizări și active"
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
 msgid "Vimeo"
-msgstr "Vimeo"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Walden"
-msgstr "Walden"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Wavy"
-msgstr "Wavy"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_web_editor_converter_test_sub
 msgid "Web Editor Converter Subtest"
-msgstr "Subtest Convertor Editor Web"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_web_editor_converter_test
 msgid "Web Editor Converter Test"
-msgstr "Web Editor Converter Test"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2313,7 +2306,7 @@ msgstr "XI"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Xpro"
-msgstr "Xpro"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2346,8 +2339,6 @@ msgstr ""
 #, python-format
 msgid "You need to specify either data or url to create an attachment."
 msgstr ""
-"Trebuie să specificați fie datele, fie adresa URL pentru a crea un "
-"atașament."
 
 #. module: web_editor
 #. openerp-web
@@ -2362,6 +2353,11 @@ msgstr "Youku"
 #, python-format
 msgid "Youtube"
 msgstr "Youtube"
+
+#. module: web_editor
+#: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
+msgid "Zigs"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2397,12 +2393,12 @@ msgstr "auto"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "darken"
-msgstr "întunecare"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "exclusion"
-msgstr "excludere"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2421,17 +2417,17 @@ msgstr "https://www.odoo.com/mydocument"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "lighten"
-msgstr "iluminare"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "multiply"
-msgstr "multiplicare"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "overlay"
-msgstr "acoperire"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2444,7 +2440,7 @@ msgstr "px"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "screen"
-msgstr "ecran"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2456,22 +2452,22 @@ msgstr "videouri"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Color filter"
-msgstr "⌙ Filtru Culoare"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Colors"
-msgstr "⌙ Culori"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Dynamic color"
-msgstr "⌙ Culoare Dinamică"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Flip"
-msgstr "⌙ Rotește"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -2481,19 +2477,19 @@ msgstr "⌙ Înălțime"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Image"
-msgstr "⌙ Imagine"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Position"
-msgstr "⌙ Poziție"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Shape"
-msgstr "⌙ Formă"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "⌙ Width"
-msgstr "⌙ Lăţime"
+msgstr ""

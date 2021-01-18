@@ -8644,7 +8644,7 @@ msgstr "%y - Рік без століття [00,99].\""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_language_install
 msgid "&amp; Close"
-msgstr "&amp; Закрити"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.module_view_kanban
@@ -8809,7 +8809,7 @@ msgstr "3. %y, %Y         ==&gt; 08, 2008"
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_appraisal_survey
 msgid "360 Feedback"
-msgstr "360 Відгук"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
@@ -8962,8 +8962,6 @@ msgid ""
 "<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
 "                                    <span>Documentation</span>"
 msgstr ""
-"<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
-"                                    <span>Документація</span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_form
@@ -8982,7 +8980,7 @@ msgstr "<i class=\"fa fa-times\" title=\"Close the onboarding panel\"/>"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.onboarding_container
 msgid "<span aria-label=\"Close\">×</span>"
-msgstr "<span aria-label=\"Close\">×</span>"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.reset_view_arch_wizard_view
@@ -9619,12 +9617,12 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__api_key_ids
 msgid "API Keys"
-msgstr "API ключі"
+msgstr ""
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_apikeys_admin
 msgid "API Keys Listing"
-msgstr "Перелік API ключів "
+msgstr ""
 
 #. module: base
 #: code:addons/fields.py:0
@@ -10059,7 +10057,7 @@ msgstr "Додати"
 #. module: base
 #: model:ir.actions.act_window,name:base.action_view_base_language_install
 msgid "Add Language"
-msgstr "Додати мову"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
@@ -10135,7 +10133,7 @@ msgstr "Додайте вартість доставки до онлайн-пр�
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, python-format
 msgid "Add direction"
-msgstr "Додати напрямок"
+msgstr ""
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -10488,7 +10486,7 @@ msgstr "Платіжний еквайєр Adyen"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_adyen_platforms
 msgid "Adyen for Platforms"
-msgstr "Adyen для Platforms"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module__license__agpl-3
@@ -10590,7 +10588,7 @@ msgstr "Дозволяє створювати завдання виїзного 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_payroll_edit_lines
 msgid "Allow payslip edition"
-msgstr "Дозволити версію платіжної відомості"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_event_crm
@@ -10882,7 +10880,7 @@ msgstr "Оцінка"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_appraisal_survey
 msgid "Appraisal - Survey"
-msgstr "Оцінювання - Опитування"
+msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_appraisals
@@ -10898,12 +10896,12 @@ msgstr "Затвердження"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_approvals_purchase
 msgid "Approvals - Purchase"
-msgstr "Затвердження - Закупівлі"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_approvals_purchase_stock
 msgid "Approvals - Purchase - Stock"
-msgstr "Затвердження - Закупівлі - Склад"
+msgstr ""
 
 #. module: base
 #: model:ir.actions.act_window,name:base.open_module_tree
@@ -11971,7 +11969,7 @@ msgstr "CRM"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_data_merge_crm
 msgid "CRM Deduplication"
-msgstr "Дедуплікація CRM"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_gamification_sale_crm
@@ -12060,7 +12058,7 @@ msgstr "Можна перейменувати лише одне поле за р
 #: code:addons/base/models/ir_ui_view.py:0
 #, python-format
 msgid "Can't compare more than two views."
-msgstr "Не можна порівняти більше ніж два перегляди."
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ca
@@ -12288,7 +12286,7 @@ msgstr "Перевірка"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_accountant_check_printing
 msgid "Check Printing Accounting"
-msgstr "Бухоблік друку чеків"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_check_printing
@@ -12381,7 +12379,7 @@ msgstr "Чилі - Бухгалтерські звіти"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_cl_edi
 msgid "Chile - E-invoicing"
-msgstr "Чилі - Електронне виставлення рахунків"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.cn
@@ -12528,7 +12526,7 @@ msgstr "Колумбія"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_co
 msgid "Colombia - Accounting"
-msgstr "Колумбія - Бухоблік"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_co_reports
@@ -12750,7 +12748,7 @@ msgstr "Порівняйте табелі та планування"
 #. module: base
 #: model:ir.actions.act_window,name:base.reset_view_arch_wizard_action
 msgid "Compare/Reset"
-msgstr "Порівняти/Скинути"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__contact_address
@@ -19229,7 +19227,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__link_field_id
 #: model:ir.model.fields,field_description:base.field_ir_cron__link_field_id
 msgid "Link Field"
-msgstr "Зв'язати поле"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_link_tracker
@@ -22858,12 +22856,6 @@ msgstr ""
 "повторіть спробу після оновлення."
 
 #. module: base
-#: code:addons/base/models/ir_actions_report.py:0
-#, python-format
-msgid "One of the documents, you try to merge is encrypted"
-msgstr ""
-
-#. module: base
 #: code:addons/models.py:0
 #, python-format
 msgid ""
@@ -23403,7 +23395,7 @@ msgstr "Сервери вихідної пошти"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_microsoft_calendar
 msgid "Outlook Calendar"
-msgstr "Календар Outlook"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_paperformat__dpi
@@ -24396,8 +24388,6 @@ msgid ""
 "Provide the field used to link the newly created record on the record used "
 "by the server action."
 msgstr ""
-"Вкажіть поле, яке використовується для зв’язку новоствореного запису на "
-"записі, який використовується дією сервера."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_mobile

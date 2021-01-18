@@ -1753,8 +1753,6 @@ attributes are:
                 </div>
             </t>
 
-.. _howtos/web/client_actions:
-
 Client Actions
 --------------
 
